@@ -44,9 +44,9 @@ function App() {
     <div className="app" style={{ backgroundImage: `url(${bg})` }}>
       <div className="overlay">
         {weather && (
-          <div className="container">
+            <div className="container">
             <div className="section section__inputs">
-              <input
+              <input className="box"
                 onKeyDown={enterKeyPressed}
                 type="text"
                 name="city"
